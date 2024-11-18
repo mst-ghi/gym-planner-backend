@@ -31,6 +31,9 @@ Database: [MariaDB](https://mariadb.org/) </br>
 ORM: [Prisma](https://www.prisma.io/) </br>
 Git Hook: [Husky](https://typicode.github.io/husky/) </br>
 
+## Preview Apis
+[gym-planner-backend.webm](https://github.com/user-attachments/assets/2ead92bf-e3c6-4f46-bee2-295e160ab7fb)
+
 ## Author
 
 > [Mostafa Gholami](https://gitlab.com/mst-ghi)
