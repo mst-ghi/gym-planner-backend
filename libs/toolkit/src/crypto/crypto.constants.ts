@@ -1,0 +1,2 @@
+export const CRYPTO_SECRET = 'CRYPTO_SECRET';
+export const CRYPTO_ALGORITHM = 'CRYPTO_ALGORITHM';

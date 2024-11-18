@@ -1,0 +1,30 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo 'Styling, testing and building your project before committing'
+
+# Check Prettier standards
+npm run format:check || 
+(
+    echo 'Prettier Check Failed. Run npm run format, add changes and try commit again.';
+    false;
+)
+
+# Check tsconfig standards
+npm run check:types ||
+(
+    echo 'Are you seriously trying to write that? Make the changes required above.'
+    false;
+)
+
+# If everything passes... Now we can commit
+echo 'Alright... Trying to build now.'
+
+npm run build ||
+(
+    echo 'Nestjs build failed: View the errors above to see why.'
+    false;
+)
+
+# If everything passes... Now we can commit
+echo 'I am committing this now.'

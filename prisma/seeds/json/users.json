@@ -1,0 +1,24 @@
+[
+  {
+    "mobile": "09365895522",
+    "email": "mostafagholamidev@gmail.com",
+    "national_code": "1234567890",
+    "password": "12345678",
+    "fullname": "Mostafa Gholami",
+    "verify_email": true,
+    "kind": "coach",
+    "status": "active",
+    "profile": {
+      "avatar_url": "https://mst-ghi.github.io/img/me-square.png",
+      "gender": "male",
+      "blood_type": "B+",
+      "marital_status": "single",
+      "job": "developer",
+      "education": "",
+      "address": "any",
+      "weight": 90,
+      "height": 190,
+      "birth_day": "1993-04-02T08:00:10.101Z"
+    }
+  }
+]

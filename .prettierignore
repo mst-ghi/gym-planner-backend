@@ -1,0 +1,7 @@
+# compiled output
+/dist
+.npmrc
+coverage
+documents
+/prisma/**/*.js
+/types/**/*.ts

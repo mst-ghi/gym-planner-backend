@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Dumbbell",
+    "media_url": "",
+    "description": "Dumbbells are handheld weightlifting tools used in strength training and fitness exercises."
+  },
+  {
+    "title": "Treadmill",
+    "media_url": "",
+    "description": "Treadmills are machines for cardiovascular exercises that allow you to walk or run in a stationary position."
+  },
+  {
+    "title": "Stationary Bike",
+    "media_url": "",
+    "description": "The stationary bike is a device used for cardiovascular exercises and strengthening leg muscles."
+  },
+  {
+    "title": "Chest Press Machine",
+    "media_url": "",
+    "description": "This machine is used to strengthen the chest and arm muscles."
+  },
+  {
+    "title": "Barbell",
+    "media_url": "",
+    "description": "Barbells are weightlifting tools used in strength training with various weight plates."
+  },
+  {
+    "title": "Leg Press Machine",
+    "media_url": "",
+    "description": "This machine is used to strengthen the leg and thigh muscles."
+  },
+  {
+    "title": "Resistance Bands",
+    "media_url": "",
+    "description": "Resistance bands are tools used in stretching and strengthening exercises to increase resistance."
+  },
+  {
+    "title": "Lat Pulldown",
+    "media_url": "",
+    "description": "This machine is used to strengthen the back and shoulder muscles."
+  },
+  {
+    "title": "Stair Climber",
+    "media_url": "",
+    "description": "This machine is used for cardiovascular exercises and strengthening the leg muscles."
+  },
+  {
+    "title": "Smith Machine",
+    "media_url": "",
+    "description": "The Smith machine is a versatile device for performing various weightlifting exercises."
+  }
+]
