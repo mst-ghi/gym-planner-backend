@@ -4,26 +4,13 @@ import { AuthService } from './services';
 import { Body, Controller, Query } from '@nestjs/common';
 import { ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { User, UserAccessToken, UserGuard } from 'src/app.guards';
-import {
-  LoginResponse,
-  RegisterResponse,
-  UserResponse,
-} from './auth.responses';
-import {
-  LoginDto,
-  RefreshDto,
-  ChangePasswordDto,
-  RegisterDto,
-  AvatarDto,
-  UpdateInfoDto,
-} from './auth.dto';
+import { LoginResponse, RegisterResponse, UserResponse } from './auth.responses';
+import { LoginDto, RefreshDto, ChangePasswordDto, RegisterDto, AvatarDto, UpdateInfoDto } from './auth.dto';
 
 @ApiTags('auth')
 @Controller('auth')
 export class AuthController {
-  constructor(
-    private readonly service: AuthService,
-  ) {}
+  constructor(private readonly service: AuthService) {}
 
   @ApiSignature({
     method: 'GET',
