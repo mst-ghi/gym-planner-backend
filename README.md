@@ -1,6 +1,6 @@
 # **Gym Planner Project**
 
-[Dashboard Source Code](https://github.com/mst-ghi/gym-planner-dasboard)
+[Dashboard Source Code](https://github.com/mst-ghi/gym-planner-dashboard)
 <br/>
 [Webapp Source Code](https://github.com/mst-ghi/gym-planner-web-app)
 
